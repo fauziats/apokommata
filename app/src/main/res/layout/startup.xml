@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/bg_startup"
+        android:src="@drawable/start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/square"
+        />
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Sign in"
+        android:gravity="center"
+        android:textColor="#4FC3F7"
+        android:layout_marginTop="375dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginLeft="108dp"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:background="@drawable/login"/>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Sign up"
+        android:gravity="center"
+        android:textColor="#4FC3F7"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginLeft="108dp"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:background="@drawable/login"/>
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/imageView" />
+</FrameLayout>

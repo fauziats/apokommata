@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/bg_startup"
+        android:src="@drawable/signin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/square"
+        />
+    <TextView
+        android:text="E-mail"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_password"
+        android:text="Enter your e-mail"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_password"
+        android:text="Enter your password"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Sign in"
+        android:gravity="center"
+        android:textColor="#4FC3F7"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginLeft="108dp"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:background="@drawable/login"/>
+
+
+</FrameLayout>
