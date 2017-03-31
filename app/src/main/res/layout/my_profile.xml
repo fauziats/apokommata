@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/square_blue"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        />
+    <ImageView
+        android:id="@+id/pp_medium"
+        android:src="@drawable/person_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/circle_white"
+        android:padding="12dp"
+        />
+    <Button
+        android:id="@+id/nav_btn"
+        android:background="@drawable/navigation_bar_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        />
+    <TextView
+        android:id="@+id/user_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raditya Kurniawan"
+        android:textSize="26sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="170dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/user_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angel Donator"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="205dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageButton
+        android:id="@+id/loc_btn"
+        android:background="@drawable/loc_icon"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="115dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp" />
+    <TextView
+        android:id="@+id/location_name"
+        android:text="Yogyakarta"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/squarewhite"
+        android:layout_width="3dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="275dp"/>
+    <TextView
+        android:text="Donated"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Received"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/donated_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:text="23"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="75dp"
+        />
+    <TextView
+        android:id="@+id/received_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:text="10"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="215dp"
+        />
+    <ImageButton
+        android:id="@+id/history_btn"
+        android:src="@drawable/history_btn"
+        android:background="#FFFFFF"
+        android:layout_marginTop="330dp"
+        android:layout_width="205dp"
+        android:layout_height="165dp"
+        android:paddingBottom="30dp"/>
+    <ImageButton
+        android:id="@+id/karma_btn"
+        android:src="@drawable/karma_btn"
+        android:background="#FFFFFF"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="205dp"
+        android:layout_width="205dp"
+        android:layout_height="165dp"
+        android:paddingBottom="30dp"/>
+    <ImageButton
+        android:id="@+id/achieve_btn"
+        android:src="@drawable/achieve_btn"
+        android:background="#FFFFFF"
+        android:layout_marginTop="495dp"
+        android:layout_width="205dp"
+        android:layout_height="165dp"
+        android:paddingBottom="30dp"/>
+    <ImageButton
+        android:id="@+id/stuff_btn"
+        android:src="@drawable/stuff_btn"
+        android:background="#FFFFFF"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="205dp"
+        android:layout_width="205dp"
+        android:layout_height="165dp"
+        android:paddingBottom="30dp"/>
+    <TextView
+        android:text="History"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Karma"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Achievement"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="My Stuff"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

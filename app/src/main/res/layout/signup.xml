@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/bg_signup"
+        android:src="@drawable/signup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/square"
+        />
+    <TextView
+        android:text="E-mail"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_email"
+        android:text="Enter your e-mail"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="First Name"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_firstname"
+        android:text="Enter your first name"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Last Name"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_lastname"
+        android:text="Enter your last name"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_password"
+        android:text="Enter your password"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="31dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Location"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="61dp"
+        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/reg_location"
+        android:text="Enter your location"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Phone Number"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="490dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/reg_phoneno"
+        android:text="Enter your phone no."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="530dp"
+        android:layout_marginRight="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_down"
+        android:background="@drawable/dropdown"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginLeft="280dp"/>
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Sign up"
+        android:gravity="center"
+        android:textColor="#4FC3F7"
+        android:layout_marginTop="590dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginLeft="108dp"
+        android:textSize="26sp"
+        android:textAllCaps="false"
+        android:background="@drawable/login"/>
+
+
+</FrameLayout>

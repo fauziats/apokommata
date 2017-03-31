@@ -3,13 +3,13 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/postpic"
+        android:id="@+id/postpic_post"
         android:src="@drawable/postpic"
         android:layout_width="match_parent"
         android:layout_height="280dp"
         android:scaleType="centerCrop"/>
     <TextView
-        android:id="@+id/postname"
+        android:id="@+id/post_name"
         android:background="@drawable/squareblack"
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -22,37 +22,30 @@
         android:textSize="24sp"/>
     <TextView
         android:id="@+id/time_left"
+        android:background="@drawable/squareblack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="4dp"
         android:text="3D 21H"
         android:textColor="#FFFFFF"
-        android:layout_marginLeft="340dp"
-        android:textSize="18sp"
-        android:layout_marginTop="215dp"/>
-    <ImageView
+        android:layout_marginLeft="323dp"
+        android:textSize="24sp"/>
+    <Button
         android:id="@+id/button_next"
-        android:src="@drawable/arrow_next"
-        android:layout_width="wrap_content"
+        android:background="@drawable/arrow_next"
+        android:layout_width="48dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="362dp"
         android:layout_marginTop="230dp"
         />
-    <ImageView
+    <Button
         android:id="@+id/button_prev"
-        android:src="@drawable/arrow_left"
-        android:layout_width="wrap_content"
+        android:background="@drawable/arrow_left"
+        android:layout_width="48dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="230dp"
         />
-    <ImageView
-        android:id="@+id/pp_kecil"
-        android:src="@drawable/ic_person_black_24dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="25dp"
-        android:background="@drawable/circle_black"
-        android android:padding="8dp"/>
+
     <TextView
         android:id="@+id/categories"
         android:text="Sportswear"
@@ -64,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:id="@+id/user_name"
+        android:id="@+id/user_fullname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Raditya Kurniawan"
@@ -125,4 +118,14 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/pp_small"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/circle_black"
+        android:padding="8dp"/>
 </FrameLayout>
