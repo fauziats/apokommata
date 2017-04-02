@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:text="Badge"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:background="@drawable/square_blue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/badge_1"
+                android:text="Achievement 1"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@drawable/square_blue_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="64dp"
+                android:paddingRight="135dp" />
+            <ImageView
+                android:src="@drawable/achieve_icon"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                />
+            <ImageView
+                android:id="@+id/ach_1_stat"
+                android:src="@drawable/ach_not_done"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="8dp"
+                />
 
+            <TextView
+                android:id="@+id/badge_2"
+                android:text="Achievement 2"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@drawable/square_blue_rounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="64dp"
+                android:paddingRight="135dp"
+                android:layout_marginTop="128dp"/>
+            <ImageView
+                android:src="@drawable/achieve_icon"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="137dp"
+                />
+            <ImageView
+                android:id="@+id/ach_2_stat"
+                android:src="@drawable/ach_done"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="137dp"
+                />
+
+        </FrameLayout>
+    </ScrollView>
 </FrameLayout>

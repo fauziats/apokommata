@@ -158,11 +158,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:text="Achievement"
+        android:text="Badge"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:layout_marginTop="600dp"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
