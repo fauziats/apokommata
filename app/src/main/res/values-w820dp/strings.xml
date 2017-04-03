@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Apokommata</string>
+
+    <string name="signin_failed">Gagal untuk sign in, harap periksa koneksi internet anda</string>
+</resources>
