@@ -40,8 +40,9 @@
         android:id="@+id/user_rank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Angel Donator"
-        android:textSize="24sp"
+        android:text="Citizen of Heaven"
+        android:textAlignment="gravity"
+        android:textSize="22sp"
         android:textColor="#FFFFFF"
         android:layout_marginTop="205dp"
         android:layout_gravity="center_horizontal"
@@ -49,7 +50,7 @@
     <ImageButton
         android:id="@+id/loc_btn"
         android:background="@drawable/loc_icon"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="235dp"
         android:layout_marginLeft="115dp"
         android:layout_width="28dp"
         android:layout_height="28dp" />
@@ -59,7 +60,7 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="235dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <ImageView
@@ -115,8 +116,8 @@
         android:layout_height="165dp"
         android:paddingBottom="30dp"/>
     <ImageButton
-        android:id="@+id/karma_btn"
-        android:src="@drawable/karma_btn"
+        android:id="@+id/redeem_btn"
+        android:src="@drawable/redeem_btn"
         android:background="#FFFFFF"
         android:layout_marginTop="330dp"
         android:layout_marginLeft="205dp"
@@ -150,11 +151,11 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:text="Karma"
+        android:text="Redeem"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:layout_marginTop="440dp"
-        android:layout_marginLeft="270dp"
+        android:layout_marginLeft="260dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView

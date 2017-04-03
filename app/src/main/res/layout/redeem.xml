@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFFFFF">
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="Redeem"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
     <TextView
         android:text="Your Karma"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <ImageView
         android:id="@+id/karma_btn"
         android:src="@drawable/karma_btn"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="84dp"
-        android:layout_marginRight="48dp"/>
+        android:layout_marginTop="108dp"
+        android:layout_marginRight="42dp"/>
     <TextView
         android:id="@+id/karma_point"
         android:text="520"
         android:textColor="@color/colorPrimary"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="84dp"
-        android:textSize="32sp"
+        android:layout_marginTop="108dp"
+        android:textSize="28sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <HorizontalScrollView
@@ -32,32 +43,49 @@
         android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <FrameLayout
+        <LinearLayout
             android:layout_gravity="center_horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/coupon_1"
-                android:src="@drawable/voucher"
-                android:background="@drawable/square_blue_rounded"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:paddingTop="36dp"
-                android:paddingRight="36dp"
-                android:paddingLeft="36dp"
-                android:paddingBottom="216dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:id="@+id/coupon_name"
-                android:layout_marginTop="50dp"
-                android:textAlignment="gravity"
-                android:layout_gravity="center"
-                android:text="Voucher 50%"
-                android:textStyle="bold"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </FrameLayout>
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+                <ImageView
+                    android:id="@+id/coupon_1"
+                    android:src="@drawable/voucher"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/square_blue_rounded"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="250dp"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/coupon_name"
+                    android:layout_marginTop="65dp"
+                    android:textAlignment="gravity"
+                    android:layout_gravity="center"
+                    android:text="Voucher 50%"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/coupon_desc"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="gravity"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui leo, volutpat ut lobortis quis, hendrerit a tellus."
+                    android:layout_marginTop="325dp"
+                    />
+            </FrameLayout>
+        </LinearLayout>
     </HorizontalScrollView>
 </FrameLayout>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
-
+    <ImageView
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <ImageView
         android:id="@+id/postpic_post"
-        android:src="@drawable/postpic"
+        android:src="@drawable/post_contoh"
         android:layout_width="match_parent"
         android:layout_height="280dp"
         android:scaleType="centerCrop"/>
@@ -14,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="200dp"
-        android:text="Sepatu Bola"
+        android:text="Tas Bagus"
         android:textColor="#ffffff"
         android:textAlignment="center"
         android:gravity="center"
@@ -26,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="4dp"
-        android:text="3D 21H"
+        android:text="2D 21H"
         android:textColor="#FFFFFF"
         android:layout_marginLeft="323dp"
         android:textSize="24sp"/>
@@ -47,8 +50,8 @@
         />
 
     <TextView
-        android:id="@+id/categories"
-        android:text="Sportswear"
+        android:id="@+id/post_category"
+        android:text="Aksesoris"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textAlignment="center"
@@ -85,7 +88,7 @@
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
         android:paddingTop="16dp"
-        android:background="#E0E0E0">
+        android:background="#FFFFFF">
         <TextView
             android:id="@+id/stuff_desc"
             android:layout_width="wrap_content"

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFFFFF">
+    <ImageView
+        android:id="@+id/gallery_zoom"
+        android:src="@drawable/post_pic_ex"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:scaleType="centerCrop"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="330dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/gallery_small_1"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+            <ImageView
+                android:id="@+id/gallery_small_2"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+            <ImageView
+                android:id="@+id/gallery_small_3"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/gallery_small_4"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+            <ImageView
+                android:id="@+id/gallery_small_5"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+            <ImageView
+                android:id="@+id/gallery_small_6"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/gallery_small_7"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+            <ImageView
+                android:id="@+id/gallery_small_8"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+            <ImageView
+                android:id="@+id/gallery_small_9"
+                android:background="#F0F0F0"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="610dp"
+    android:orientation="horizontal">
+        <Button
+            android:id="@+id/gallery_btn"
+            android:background="@drawable/button_interest"
+            android:text="Gallery"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_width="206dp"
+            android:layout_height="50dp" />
+    <Button
+        android:id="@+id/camera_btn"
+        android:background="@drawable/square_blue"
+        android:text="Camera"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_width="206dp"
+        android:layout_height="50dp" />
+</LinearLayout>
+    <Button
+        android:id="@+id/button_next"
+        android:background="@drawable/btn_next_blue"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="end"/>
+</FrameLayout>
