@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.apokommata.apokommata.App;
+import com.apokommata.apokommata.Model.User;
 import com.apokommata.apokommata.R;
 import com.apokommata.apokommata.Utils;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -91,6 +92,19 @@ public class RegisterActivity extends AppCompatActivity {
                 if (user != null) {
                     Log.e("REGISTER", "SUKSES!!");
                     // User is signed in
+
+                    String pic;
+                    String[] names = etFullName.getText().toString().split(" ");
+                    if (names.length == 1){
+                        pic = "http://i0.wp.com/cdn.auth0.com/avatars/" + names[0].charAt(0) + ".png";
+                    } else {
+                        pic = "http://i0.wp.com/cdn.auth0.com/avatars/" + names[0].charAt(0) + names[1].charAt(0) + ".png";
+                    }
+
+                    User user1 = new User(user.getUid(), user.getEmail(), etFullName.getText().toString(),
+                            pic, (String)spLocation.getSelectedItem(), etPhone.getText().toString());
+                    userRef.child(user.getUid()).setValue(user1);
+
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString(App.ID,user.getUid());
                     editor.putString(App.EMAIL,user.getEmail());

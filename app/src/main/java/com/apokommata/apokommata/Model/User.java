@@ -8,6 +8,7 @@ public class User {
     private String id;
     private String email;
     private String fullName;
+    private String pic;
     private String location;
     private String phone;
 
@@ -27,11 +28,11 @@ public class User {
         this.email = email;
     }
 
-    public String getFirstName() {
+    public String getFullName() {
         return fullName;
     }
 
-    public void setFirstName(String fullName) {
+    public void setFullName(String fullName) {
         this.fullName = fullName;
     }
 
@@ -51,10 +52,19 @@ public class User {
         this.phone = phone;
     }
 
-    public User(String id, String email, String fullName, String location, String phone) {
+    public String getPic() {
+        return pic;
+    }
+
+    public void setPic(String pic) {
+        this.pic = pic;
+    }
+
+    public User(String id, String email, String fullName, String pic,String location, String phone) {
         this.id = id;
         this.email = email;
         this.fullName = fullName;
+        this.pic = pic;
         this.location = location;
         this.phone = phone;
     }
