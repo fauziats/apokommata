@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -75,19 +76,14 @@
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="4dp">
-            <EditText
+            <Spinner
             android:id="@+id/post_category"
             android:hint="Category"
             android:textSize="20sp"
-                android:layout_gravity="center"
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAlignment="gravity" />
-            <ImageButton
-                android:background="@drawable/dropdown_black"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_gravity="center"/>
         </LinearLayout>
         <EditText
             android:id="@+id/stuff_desc"
@@ -103,7 +99,7 @@
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="4dp">
-            <EditText
+            <Spinner
                 android:id="@+id/time_left"
                 android:hint="Duration"
                 android:textSize="20sp"
@@ -111,11 +107,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="gravity" />
-            <ImageButton
-                android:background="@drawable/dropdown_black"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_gravity="center"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -123,7 +114,7 @@
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="4dp">
-            <EditText
+            <Spinner
                 android:id="@+id/shipment_method"
                 android:hint="Shipment Method"
                 android:textSize="20sp"
@@ -131,11 +122,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="gravity" />
-            <ImageButton
-                android:background="@drawable/dropdown_black"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_gravity="center"/>
         </LinearLayout>
     </LinearLayout>
+    <ImageButton
+        android:id="@+id/btn_done"
+        android:background="@drawable/circle_pink"
+        android:src="@drawable/btn_done"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:padding="2dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="20dp"
+        />
 </FrameLayout>

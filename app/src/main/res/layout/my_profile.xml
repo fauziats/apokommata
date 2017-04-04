@@ -16,14 +16,7 @@
         android:background="@drawable/circle_white"
         android:padding="12dp"
         />
-    <Button
-        android:id="@+id/nav_btn"
-        android:background="@drawable/navigation_bar_btn"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="12dp"
-        />
+
     <TextView
         android:id="@+id/user_fullname"
         android:layout_width="wrap_content"

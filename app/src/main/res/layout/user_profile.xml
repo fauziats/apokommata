@@ -1,5 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFFFFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/square_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="330dp"
+                    />
+                <ImageView
+                    android:id="@+id/pp_medium"
+                    android:src="@drawable/person_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/circle_white"
+                    android:padding="12dp"
+                    />
+
+                <TextView
+                    android:id="@+id/user_fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fauzi Atsalatsa"
+                    android:textSize="26sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="170dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/user_rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Citizen of Heaven"
+                    android:textAlignment="gravity"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="205dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <ImageButton
+                    android:id="@+id/loc_btn"
+                    android:background="@drawable/loc_icon"
+                    android:layout_marginTop="235dp"
+                    android:layout_marginLeft="115dp"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp" />
+                <TextView
+                    android:id="@+id/location_name"
+                    android:text="Yogyakarta"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="235dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/squarewhite"
+                    android:layout_width="3dp"
+                    android:layout_height="26dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="275dp"/>
+                <TextView
+                    android:text="Donated"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="275dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="Received"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="275dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/donated_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="275dp"
+                    android:text="23"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="75dp"
+                    />
+                <TextView
+                    android:id="@+id/received_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="275dp"
+                    android:text="10"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="215dp"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <ImageView
+                    android:id="@+id/postpic_timeline"
+                    android:src="@drawable/post_pic_ex"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:src="@drawable/square_black2"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp" />
+
+                <TextView
+                    android:id="@+id/post_name"
+                    android:text="Sepatu Bola"
+                    android:textSize="26sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:background="@c">
+                    <TextView
+                        android:textSize="24sp"
+                        android:text="Received"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"/>
+                    <ImageView
+                        android:src="@drawable/received_iconldpi"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"/>
+                </LinearLayout>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <ImageView
+                    android:id="@+id/postpic_timeline"
+                    android:src="@drawable/post_pic_ex"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:src="@drawable/square_black2"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp" />
+
+                <TextView
+                    android:id="@+id/post_name"
+                    android:text="Sepatu Bola"
+                    android:textSize="26sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+                    <TextView
+                        android:textSize="24sp"
+                        android:text="Donated"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"/>
+                    <ImageView
+                        android:src="@drawable/donatedldpi"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"/>
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
